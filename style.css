@@ -16,7 +16,7 @@ img{max-width: 100%;}
 /* ここからタイトル */
 
 .big-bg{
-  background-image: url(images/bg-wood.jpg);
+  background-image: url(https://github.com/taaaaryu/taaaaryu.github.io/blob/master/514mEzSiz-L._AC_SX466_.jpg);
   background-size: auto;
   background-repeat: repeat;
   min-height: 130vh;
@@ -56,6 +56,7 @@ img{max-width: 100%;}
 .top a:hover::after{
   width: 100%;
 }
+
 
 #home{
  display: flex;
