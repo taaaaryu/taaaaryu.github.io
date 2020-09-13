@@ -1,0 +1,152 @@
+@charset "UTF-8"
+
+/* 共通部分 */
+html{font-size:100%;}
+body{font-family: "Yu Gothic Medium","YuGothic";
+line-height: 1.7;
+color: black;}
+a{text-decoration: none;}
+img{max-width: 100%;}
+
+.around{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+/* ここからタイトル */
+
+.big-bg{
+  background-image: url(images/bg-wood.jpg);
+  background-size: auto;
+  background-repeat: repeat;
+  min-height: 130vh;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.top h2{
+  font-size: 3.3rem;
+  padding: 5px 10px 20px 25px;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+}
+.top-menu{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 2rem;
+}
+.top-list{
+  margin-top: 28px;
+  margin-left: 45px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+.top-list a::after,
+.top a::after {
+  content: "";
+  display: block;
+  width: 0;
+  transition: width 0.4s;
+  border-bottom: 5px solid black;
+}
+.top-list a:hover::after,
+.top a:hover::after{
+  width: 100%;
+}
+
+#home{
+ display: flex;
+ justify-content: space-between;
+}
+#home h3{
+  font-size: 4.5rem;
+  font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+  margin-top: 1rem;
+  text-decoration: black underline;
+  margin-bottom: 3rem;
+}
+#home span{
+  margin-left: 15rem;
+}
+#home p{
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+margin-bottom: 4px;
+}
+#home p::first-letter{
+  font-size: 5rem;
+}
+.home-content{
+  display: block;
+   transform: rotate(-90deg);
+   position: relative;
+   left: 115px;
+}
+.inu{
+  min-width: 200px;
+  max-height: 300px;
+  margin-left: 40px;
+}
+
+/* contact */
+#contact{
+  margin-bottom: 20px;
+}
+#contact h3,
+#works h3{
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+.ask{
+  display: flex;
+  justify-content: space-evenly;
+}
+.input{
+  
+}
+input[type="email"],
+input[type="text"],
+textarea{
+  background: rgba(210, 210, 210, 0.5);
+  border: whitesmoke 0.8px solid;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  display: block;
+}
+input[type="email"],
+input[type="text"]{
+  max-width: 240px;
+  padding-bottom: 16px;
+  margin-bottom: 48px;
+}
+textarea{
+  min-width:500px;
+  min-height: 180px;
+}
+.button{
+  background-color: black;
+  margin-top: 25px;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 5%;
+  margin-left: 47.5%;
+}
+
+/* footer */
+footer{
+  background: black;
+  text-align: center;
+  color: white;
+}
